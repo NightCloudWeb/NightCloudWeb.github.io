@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <title>关于我们</title>
+        <link rel="shortcut icon" href="https://raw.githubusercontent.com/NightCloudWeb/NightCloudWeb.github.io/main/logo.ico" type="image/png">
+    </head>
+    <style>
+        *{
+            overflow:hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        .about {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .title {
+            position: absolute;
+            display: flex;
+            justify-content: left;
+            left: 100px;
+            right: 0;
+            top: 150px;
+            margin: auto;
+            bottom: 0;
+            color: #fff;
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        .titles {
+            position: absolute;
+            display: flex;
+            justify-content: left;
+            left: 100px;
+            right: 0;
+            top: 200px;
+            margin: auto;
+            bottom: 0;
+            color: rgba(255, 255, 255, 0.82);
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .ribbon {
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            right: 100px;
+            top: 50px;
+            margin: auto;
+        }
+
+        .ribbon:after,
+        .ribbon:before {
+            margin-top: 0.5em;
+            content: "";
+            display: flex;
+        ;
+            border: 1.5em solid #fff;
+        }
+
+        .ribbon:after {
+            border-right-color: transparent;
+        }
+
+        .ribbon:before {
+            border-left-color: transparent;
+        }
+
+        .ribbon a:link,
+        .ribbon a:visited {
+            color: #000;
+            text-decoration: none;
+            height: 3.5em;
+            overflow: hidden;
+        }
+
+        .ribbon span {
+            background: #fff;
+            display: inline-block;
+            line-height: 3em;
+            padding: 0 1.5em;
+            margin-top: 0.5em;
+            position: relative;
+            -webkit-transition: background-color 0.2s, margin-top 0.2s;
+            /* Saf3.2+, Chrome */
+            -moz-transition: background-color 0.2s, margin-top 0.2s;
+            /* FF4+ */
+            -ms-transition: background-color 0.2s, margin-top 0.2s;
+            /* IE10 */
+            -o-transition: background-color 0.2s, margin-top 0.2s;
+            /* Opera 10.5+ */
+            transition: background-color 0.2s, margin-top 0.2s;
+        }
+
+        .ribbon a:hover span {
+            background: #FFD204;
+            margin-top: 0;
+        }
+
+        .ribbon span:before {
+            content: "";
+            position: absolute;
+            top: 3em;
+            left: 0;
+            border-right: 0.5em solid #9B8651;
+            border-bottom: 0.5em solid #fff;
+        }
+
+        .ribbon span:after {
+            content: "";
+            position: absolute;
+            top: 3em;
+            right: 0;
+            border-left: 0.5em solid #9B8651;
+            border-bottom: 0.5em solid #fff;
+        }
+
+        .about > .img1{
+            position: absolute;
+            height: 150px;
+            width: 150px;
+            padding: 1rem;
+            background-color: rgba(206, 192, 192, 0.2);
+            backdrop-filter: blur(4rem);
+            border-radius: 1.2rem;
+            margin: 0 auto;
+            top:370px;
+            left:100px;
+        }
+        .about > .img1 > div > h2{
+            color: #ffffff;
+            position: absolute;
+            font-size:16px;
+        }
+
+        .about > .img2{
+            position: absolute;
+            height: 150px;
+            width: 150px;
+            padding: 1rem;
+            background-color: rgba(206, 192, 192, 0.2);
+            backdrop-filter: blur(4rem);
+            border-radius: 1.2rem;
+            margin: 0 auto;
+            top:370px;
+            left:370px;
+        }
+        .about > .img2 > div > h2{
+            color: #ffffff;
+            position: absolute;
+            font-size:16px;
+        }
+
+
+
+    </style>
+    <body>
+    <div class="about">
+        <img src="https://cdn.pixabay.com/photo/2021/11/14/12/53/ship-6794508_1280.jpg" width="100%" height="100%" alt="">
+        <h3 class="title">About Us</h3>
+        <h3 style="color: #ffffff">Why did you choose NightCloud?</h3>
+        <h3 style="color: #ffffff;top: 300px;left: 100px;position: absolute;font-size:24px"> The main man in our team</h3>
+
+        <div class="img1">
+            <div><h2> A good front end designer</h2></div>
+        </div>
+        <div class = "img2">
+            <div><h2> Senior back-end designer</h2></div>
+        </div>
+        <img style="left:140px;top:440px;position: absolute;width: 100px;height: 100px" src="https://raw.githubusercontent.com/NightCloudWeb/NightCloudWeb.github.io/main/img2.jpg" alt="">
+        <img style="left:410px;top:440px;position: absolute;width: 100px;height: 100px" src="https://raw.githubusercontent.com/NightCloudWeb/NightCloudWeb.github.io/main/img1.png" alt="">
+        <h3 class="titles">Because we are professional! We have senior development experience,
+            <br>professional development members and complete equipment.<br><br><br>
+            <br>&nbsp;MR.JIN&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;MRMELON</h3>
+
+
+        <div class='ribbon'>
+            <a href='https://nightcloudweb.github.io/index.html'><span>Home</span></a>
+            <a href='https://nightcloudweb.github.io/about.html'><span>About</span></a>
+            <a href='https://nightcloudweb.github.io/contact.html'><span>Contact</span></a>
+        </div>
+    </div>
+    </body>
+</html>
